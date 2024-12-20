@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>دسته‌بندی کتاب‌ها</title>
+    <title>صفحه اصلی - دسته‌بندی کتاب‌ها</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f8f9fa;
             direction: rtl;
+            background-color: #f8f9fa;
         }
         header {
             background-color: #343a40;
-            color: #fff;
-            padding: 1rem 2rem;
+            color: white;
+            padding: 1rem 0;
             text-align: center;
         }
         .container {
@@ -26,129 +26,54 @@
         .category {
             margin-bottom: 2rem;
         }
-        .category h2 {
-            color: #343a40;
-            border-bottom: 2px solid #6c757d;
-            padding-bottom: 0.5rem;
+        h2 {
+            color: #007bff;
+            margin-bottom: 1rem;
         }
-        .books {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1rem;
+        ul {
+            list-style-type: none;
+            padding: 0;
         }
-        .book {
-            background-color: #fff;
-            border: 1px solid #dee2e6;
-            border-radius: 5px;
-            padding: 1rem;
-            width: calc(33.333% - 1rem);
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-        .book img {
-            width: 100%;
-            height: auto;
-            border-radius: 5px;
-        }
-        .book h3 {
-            font-size: 1.2rem;
+        li {
             margin: 0.5rem 0;
         }
-        .book a {
+        a {
             text-decoration: none;
             color: #007bff;
         }
-        .book a:hover {
+        a:hover {
             text-decoration: underline;
-        }
-        @media (max-width: 768px) {
-            .book {
-                width: calc(50% - 1rem);
-            }
-        }
-        @media (max-width: 480px) {
-            .book {
-                width: 100%;
-            }
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>دسته‌بندی کتاب‌ها</h1>
+        <h1>به صفحه دسته‌بندی کتاب‌ها خوش آمدید</h1>
     </header>
     <div class="container">
-        <!-- دسته ادبیات -->
         <div class="category">
             <h2>ادبیات</h2>
-            <div class="books">
-                <div class="book">
-                    <a href="adabiat1.html">
-                        <img src="adabiat1.jpg" alt="کتاب اول">
-                        <h3>کتاب اول</h3>
-                    </a>
-                </div>
-                <div class="book">
-                    <a href="adabiat2.html">
-                        <img src="adabiat2.jpg" alt="کتاب دوم">
-                        <h3>کتاب دوم</h3>
-                    </a>
-                </div>
-                <div class="book">
-                    <a href="adabiat3.html">
-                        <img src="adabiat3.jpg" alt="کتاب سوم">
-                        <h3>کتاب سوم</h3>
-                    </a>
-                </div>
-            </div>
+            <ul>
+                <li><a href="adabiat1.html">کتاب اول - ادبیات</a></li>
+                <li><a href="adabiat2.html">کتاب دوم - ادبیات</a></li>
+                <li><a href="adabiat3.html">کتاب سوم - ادبیات</a></li>
+            </ul>
         </div>
-        <!-- دسته علمی -->
         <div class="category">
             <h2>علمی</h2>
-            <div class="books">
-                <div class="book">
-                    <a href="elmi1.html">
-                        <img src="elmi1.jpg" alt="کتاب اول">
-                        <h3>کتاب اول</h3>
-                    </a>
-                </div>
-                <div class="book">
-                    <a href="elmi2.html">
-                        <img src="elmi2.jpg" alt="کتاب دوم">
-                        <h3>کتاب دوم</h3>
-                    </a>
-                </div>
-                <div class="book">
-                    <a href="elmi3.html">
-                        <img src="elmi3.jpg" alt="کتاب سوم">
-                        <h3>کتاب سوم</h3>
-                    </a>
-                </div>
-            </div>
+            <ul>
+                <li><a href="elmi1.html">کتاب اول - علمی</a></li>
+                <li><a href="elmi2.html">کتاب دوم - علمی</a></li>
+                <li><a href="elmi3.html">کتاب سوم - علمی</a></li>
+            </ul>
         </div>
-        <!-- دسته تاریخی -->
         <div class="category">
             <h2>تاریخی</h2>
-            <div class="books">
-                <div class="book">
-                    <a href="tarikhi1.html">
-                        <img src="tarikhi1.jpg" alt="کتاب اول">
-                        <h3>کتاب اول</h3>
-                    </a>
-                </div>
-                <div class="book">
-                    <a href="tarikhi2.html">
-                        <img src="tarikhi2.jpg" alt="کتاب دوم">
-                        <h3>کتاب دوم</h3>
-                    </a>
-                </div>
-                <div class="book">
-                    <a href="tarikhi3.html">
-                        <img src="tarikhi3.jpg" alt="کتاب سوم">
-                        <h3>کتاب سوم</h3>
-                    </a>
-                </div>
-            </div>
+            <ul>
+                <li><a href="tarikhi1.html">کتاب اول - تاریخی</a></li>
+                <li><a href="tarikhi2.html">کتاب دوم - تاریخی</a></li>
+                <li><a href="tarikhi3.html">کتاب سوم - تاریخی</a></li>
+            </ul>
         </div>
     </div>
 </body>
